@@ -3,6 +3,7 @@ def greet_characters(array)
   #
   # Print a custom greeting for each element
 end
+greet_characters(["Dopey", "Grumpy", "Bashful"])
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
