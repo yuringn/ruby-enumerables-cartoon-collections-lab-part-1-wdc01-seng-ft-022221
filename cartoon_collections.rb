@@ -1,5 +1,5 @@
 def greet_characters(array)
-  array.each {|name|, puts "Hello #{name}!"}
+  array.each {|name| puts "Hello #{name}!"}
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
@@ -11,3 +11,4 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
 end
+list_dwarves(["Dopey", "Grumpy", "Bashful"])
